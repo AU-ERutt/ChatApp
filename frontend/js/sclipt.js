@@ -7,7 +7,7 @@ function send_question(){
 
 async function get_hello() {
     console.log("HELLO");
-    const url = "http://127.0.0.1:5000/hello";
+    const url = "http://127.0.0.1:8888/hello";
     fetch(url)
     .then(function(response) {
         return response.json();
